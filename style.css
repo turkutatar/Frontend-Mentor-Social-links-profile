@@ -1,0 +1,73 @@
+/* Sayfadaki tüm HTML elemanlarını seçerek tarayıcıların varsayılan stil değerlerini sıfırlamak için CSS Reset kullanılır*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif; /* Verilen Google Fonts linkindeki "Embed Code" */   
+}
+
+body    {
+    background: #141414 ;
+}
+
+#Grey-800-Dikdortgen {
+    margin: 5rem auto;
+    width: 375px;
+    height: 530px;
+    background-color: #1F1F1F;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+.profile-picture img {
+width: 88px;
+height: 88px;
+/* Tam yuvarlak profil fotoğrafı kullanmak isteseydin border-radius: 50%; */
+margin-top: 2rem; /* 1rem=16px */
+}
+
+.user-details {
+    text-align: center;
+    }
+
+.user-details h1 {
+color: #ffffff;
+font-size: 24px;
+font-weight: bold;
+margin-top: 1.5rem;
+}
+
+.user-details h4 {
+    color: #C5F82A;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: .5rem;
+    }
+
+.user-details p {
+    color: azure;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 1rem;
+}
+
+.social-links {
+    margin-top: 1.5rem;
+}
+
+.links-menu li {
+    list-style-type: none; /* Default çıkan bullet pointleri kaldırmak için kullanıldı*/
+    text-align: center;
+    width: 304px;
+    height: 45px; /*TODO: Flexbox kullanılmalı*/
+}
+
+.links-menu a {
+    background-color: #333333;
+    border-radius: 8%;
+    text-decoration: none; /* Default çıkan altı çizili mor link gösterimini kaldırmak için kullanıldı*/
+    color: azure;
+}
