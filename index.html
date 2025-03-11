@@ -1,34 +1,56 @@
+<!-- (Shift + 1 + Tab) ile HTML boilerplate oluşturulur -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Verilen Google Fonts linkindeki "Embed Code" -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!-- CSS dosyası bu satırla HTML dosyasına bağlanır -->
+  <title>My Social Profile Links</title>
 </head>
 <body>
+  <main>
+    <section id="Grey-800-Dikdortgen">
+      <div class="profile-picture">
+      <img src="./assets/images/3f6add7c61626127af7d8b10f240b0ea.jpg" alt="TT">
+      </div>
+      <div class="user-details">
+        <h1>F. Türkü TATAR</h1>
+        <h4>Ankara, Turkey</h4>
+        <p>Software Test Engineer</p>
+      </div>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+      <div class="social-links">
+        <ul class="links-menu"> 
+          <li> <!-- (Anchor link oluşturuldu -->
+            <a href="https://github.com/turkutatar/Frontend-Mentor-Social-links-profile">GitHub</a>
+          </li>
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+          <li>
+            <a href="https://www.linkedin.com/in/turkutatar/">LinkedIn</a>
+          </li>
+
+          <li>
+            <a href="https://www.frontendmentor.io/profile/turkutatar">Frontend Mentor</a>
+          </li>
+
+          <li>
+            <a href="#">Faydalı Linkler</a>
+          </li>
+
+          <li>
+            <a href="#">Favori Kitaplarım</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
